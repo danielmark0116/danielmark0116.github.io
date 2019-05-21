@@ -1,0 +1,9 @@
+.section-main {
+  background: url('../images/sections/main-welcome.png') center center;
+  background-size: cover;
+  //   height: 500px;
+  position: relative;
+  & img {
+    @include fade;
+  }
+}

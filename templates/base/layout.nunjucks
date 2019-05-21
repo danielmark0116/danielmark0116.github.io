@@ -14,7 +14,7 @@
     {% endblock navbar %}
 <main class="wrapper" id="wrapper">
 
-    <a href="sub.html">Click 2</a>
+    
     
     {% block content %}
     {% endblock content %}

@@ -4,7 +4,10 @@
 @import 'fonts';
 @import 'mixins';
 @import 'variables';
+@import 'sections';
+@import 'sections/main';
 @import 'components/navbar';
+@import 'components/separator';
 
 body {
   background-color: white;
