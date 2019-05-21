@@ -4,3 +4,9 @@
 {% block navbar %}
 {% include "partials/navbar.nunjucks" %}
 {% endblock navbar %}
+
+{% block content %}
+
+content block
+
+{% endblock content %}

@@ -1,8 +1,13 @@
 // IMPORTS
 
 @import 'fonts';
+@import 'variables';
 
 body {
-  background-color: grey;
-  font-family: 'Decade';
+  background-color: white;
+  font-family: $sans-serif;
+}
+
+h2 {
+  font-family: $decade;
 }
