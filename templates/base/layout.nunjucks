@@ -9,9 +9,8 @@
     <title>Cyber Junk</title>
 </head>
 <body>
-    
-navbar
-
+    {% block navbar %}
+    {% endblock navbar %}
 <main class="wrapper" id="wrapper">
 <h2>
         tekst ss
@@ -20,8 +19,8 @@ navbar
     <a href="/sub.html">Click sssss nie tym sposoebm</a><br><br>
     <a href="sub.html">Click 2</a>
     <a href="https://danielmark0116.github.io/sub.html">Click</a>
-    
-    
+    {% block content %}
+    {% endblock content %}
 </main>
 <script src="js/script.js"></script>
 <script src="js/btn-tab.js"></script>
