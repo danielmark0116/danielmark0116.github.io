@@ -1,0 +1,88 @@
+.navbar-custom {
+  // background-color: $white;
+  background-color: $white !important;
+  border-bottom: 1px solid $grey;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 30px rgba($grey, 0.3);
+  & a.nav-link {
+    text-transform: uppercase;
+    color: $black;
+    font-family: $sans-serif;
+    font-weight: 700;
+    font-size: 110%;
+    letter-spacing: 2px;
+  }
+  & img {
+    width: 200px;
+    padding: 0 0;
+    margin: 0 0;
+    @include fade-short;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      @include brand;
+    }
+  }
+  .nav-item {
+    position: relative;
+    padding: 0.5rem 1rem;
+    z-index: 2;
+    &:hover {
+      cursor: pointer;
+    }
+    & .nav-link-border {
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 0%;
+      height: 2px;
+      background-color: $black;
+      @include fade;
+    }
+    &:hover .nav-link-border {
+      width: 80%;
+    }
+  }
+  & button.navbar-toggler {
+    border: 0 solid rgba(white, 0);
+    width: 50px;
+    height: 50px;
+
+    &-icon {
+      color: green;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-custom {
+    & img {
+      width: 170px;
+    }
+    & .container {
+      padding-right: 2rem;
+    }
+    .nav-item {
+      text-align: center;
+      &:hover .nav-link-border {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar-custom {
+    & img {
+      width: 150px;
+      transform: translateX(-10px);
+    }
+    & .container {
+      padding-right: 1rem;
+    }
+  }
+}

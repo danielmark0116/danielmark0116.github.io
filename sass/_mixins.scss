@@ -1,0 +1,6 @@
+@mixin fade {
+  transition: 0.3s ease-in-out;
+}
+@mixin fade-short {
+  transition: 0.1s ease-in-out;
+}

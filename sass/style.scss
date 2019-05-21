@@ -1,13 +1,12 @@
 // IMPORTS
-
+@import 'vendor/hamburgers';
+@import 'animations/logo';
 @import 'fonts';
+@import 'mixins';
 @import 'variables';
+@import 'components/navbar';
 
 body {
   background-color: white;
   font-family: $sans-serif;
-}
-
-h2 {
-  font-family: $decade;
 }

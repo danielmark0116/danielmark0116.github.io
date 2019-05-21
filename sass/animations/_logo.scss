@@ -1,0 +1,22 @@
+@keyframes brand {
+  $deg: 5deg;
+  0% {
+    transform: rotate(0) scale(1);
+  }
+  25% {
+    transform: rotate(-$deg) scale(1.05);
+  }
+  50% {
+    transform: rotate($deg) scale(1.05);
+  }
+  75% {
+    transform: rotate(-$deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(0) scale(1.05);
+  }
+}
+
+@mixin brand {
+  animation: brand 0.4s 1 ease-in-out;
+}
