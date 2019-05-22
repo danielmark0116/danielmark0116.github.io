@@ -17,10 +17,12 @@
     margin: 0 0;
     @include fade-short;
 
-    &:hover {
+    &:hover,
+    &:focus {
       cursor: pointer;
       transform: scale(1.05);
       @include brand;
+      outline: hidden;
     }
   }
   .nav-item {
@@ -42,7 +44,8 @@
       background-color: $black;
       @include fade;
     }
-    &:hover .nav-link-border {
+    &:hover .nav-link-border,
+    &:focus .nav-link-border {
       width: 80%;
     }
   }

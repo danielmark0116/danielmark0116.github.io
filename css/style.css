@@ -998,10 +998,11 @@ section::before {
   transition: 0.1s ease-in-out;
 }
 
-.navbar-custom img:hover {
+.navbar-custom img:hover, .navbar-custom img:focus {
   cursor: pointer;
   transform: scale(1.05);
   animation: brand 0.4s 1 ease-in-out;
+  outline: hidden;
 }
 
 .navbar-custom .nav-item {
@@ -1027,7 +1028,8 @@ section::before {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-custom .nav-item:hover .nav-link-border {
+.navbar-custom .nav-item:hover .nav-link-border,
+.navbar-custom .nav-item:focus .nav-link-border {
   width: 80%;
 }
 
