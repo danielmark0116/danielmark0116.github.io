@@ -1,13 +1,18 @@
 // IMPORTS
 @import 'vendor/hamburgers';
 @import 'animations/logo';
+@import 'vendor/animate';
 @import 'fonts';
 @import 'mixins';
 @import 'variables';
+@import 'typo';
 @import 'sections';
 @import 'sections/main';
+@import 'sections/desc';
 @import 'components/navbar';
 @import 'components/separator';
+@import 'components/store-badges';
+@import 'components/footer';
 
 body {
   background-color: white;

@@ -29,6 +29,7 @@
     position: relative;
     padding: 0.5rem 1rem;
     z-index: 2;
+
     &:hover {
       cursor: pointer;
     }
@@ -45,7 +46,9 @@
       @include fade;
     }
     &:hover .nav-link-border,
-    &:focus .nav-link-border {
+    &:focus .nav-link-border,
+    &:focus-within .nav-link-border,
+    &:active .nav-link-border {
       width: 80%;
     }
   }
