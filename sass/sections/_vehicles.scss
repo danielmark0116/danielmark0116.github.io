@@ -1,0 +1,37 @@
+.section-vehicles {
+  &-folding {
+    background: url('../images/sections/section-crowbar.png') center center
+      no-repeat;
+    background-size: cover;
+  }
+  &-shorty {
+    background: url('../images/sections/section-rustyblade.png') center center
+      no-repeat;
+    background-size: cover;
+  }
+  &-blackbandit {
+    background: url('../images/sections/section-canpistol.png') top center
+      no-repeat;
+    background-size: cover;
+  }
+  &-mist {
+    background: url('../images/sections/section-mist.png') bottom center
+      no-repeat;
+    background-size: cover;
+  }
+  &-mine {
+    background: url('../images/sections/section-mine.png') bottom center
+      no-repeat;
+    background-size: cover;
+  }
+  position: relative;
+
+  & img {
+    @include fade;
+    height: max-content;
+    width: auto;
+  }
+  & img.bike {
+    transform: scale(1.5);
+  }
+}

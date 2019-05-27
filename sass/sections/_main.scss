@@ -7,3 +7,10 @@
     @include fade;
   }
 }
+
+@media (max-width: 996px) {
+  .section-main {
+    background: url('../images/sections/main-welcome.png') top left no-repeat;
+    background-size: cover;
+  }
+}

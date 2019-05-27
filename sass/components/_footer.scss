@@ -1,4 +1,22 @@
 footer {
   background-color: $white;
-  padding: 4rem 0;
+  padding: 4rem 0 0;
+  & a {
+    font-size: 300%;
+    margin: 0 1rem;
+    color: $black-light;
+    @include fade;
+    &:hover {
+      color: $black;
+      transform: scale(1.15);
+    }
+  }
+  & img {
+    width: 200px;
+    align-self: center;
+  }
+  & p {
+    margin: 1rem auto;
+    font-size: 0.85rem;
+  }
 }

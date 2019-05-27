@@ -1,1 +1,126 @@
-sdsd
+{% extends "base/layout.nunjucks" %}
+
+{% block navbar %}
+{% include "partials/navbar.nunjucks" %}
+{% endblock navbar %}
+
+{% block content %}
+<section class="section section-monsters section-monsters-crowbar py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
+                <h1 class="text-center">RAPTOR THE SAGE</h1>
+                <div class="d-flex justify-content-center">
+                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
+                </div>
+                
+                
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/raptor.png" alt="" class="monster">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-monsters section-monsters-rustyblade py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 animated fadeInUp fast">
+                <h1 class="text-center">JANUSH MONKEY</h1>
+                <div class="d-flex justify-content-center">
+                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
+                </div>
+                
+                
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/janush.png" alt="" class="monster">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-monsters section-monsters-canpistol py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
+                <h1 class="text-center">REALTHREAT</h1>
+                <div class="d-flex justify-content-center">
+                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
+                </div>
+                
+            </div>
+             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/realthreat.png" alt="" class="monster">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-monsters section-monsters-mist py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
+                <h1 class="text-center">COOLCAT</h1>
+                <div class="d-flex justify-content-center">
+                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
+                </div>
+                
+                
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/coolcat.png" alt="" class="monster">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-monsters section-monsters-mine py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
+                <h1 class="text-center">ALPHA</h1>
+                <div class="d-flex justify-content-center">
+                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
+                </div>
+                
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/alpha.png" alt="" class="monster">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-monsters section-monsters-mine py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
+                <h1 class="text-center">TERRORBIRD</h1>
+                <div class="d-flex justify-content-center">
+                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
+                </div>
+                
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/terrorbird.png" alt="" class="monster">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+
+{% endblock content %}

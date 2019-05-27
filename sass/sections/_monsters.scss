@@ -1,0 +1,54 @@
+.section-monsters {
+  &-crowbar {
+    background: url('../images/sections/section-crowbar.png') center center
+      no-repeat;
+    background-size: cover;
+  }
+  &-rustyblade {
+    background: url('../images/sections/section-rustyblade.png') center center
+      no-repeat;
+    background-size: cover;
+  }
+  &-canpistol {
+    background: url('../images/sections/section-canpistol.png') top center
+      no-repeat;
+    background-size: cover;
+  }
+  &-mist {
+    background: url('../images/sections/section-mist.png') bottom center
+      no-repeat;
+    background-size: cover;
+  }
+  &-mine {
+    background: url('../images/sections/section-mine.png') bottom center
+      no-repeat;
+    background-size: cover;
+  }
+  position: relative;
+
+  & img {
+    @include fade;
+  }
+  & img.monster {
+    @include fade;
+    width: auto;
+    height: 200px;
+  }
+  & h1 {
+    font-size: 300%;
+  }
+}
+
+@media (max-width: 996px) {
+  .section-monsters {
+    & img.monster {
+      @include fade;
+      width: auto;
+      height: 130px;
+      display: block;
+    }
+    & h1 {
+      font-size: 250%;
+    }
+  }
+}

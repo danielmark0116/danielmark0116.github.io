@@ -833,6 +833,8 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
 
 .section-main img { transition: 0.3s ease-in-out; }
 
+@media (max-width: 996px) { .section-main { background: url("../images/sections/main-welcome.png") top left no-repeat; background-size: cover; } }
+
 .section-desc { background: url("../images/sections/main-desc.png") top center; background-size: cover; position: relative; }
 
 .section-desc img { transition: 0.3s ease-in-out; }
@@ -862,6 +864,43 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
 .section-weap-mine { background: url("../images/sections/section-mine.png") bottom center no-repeat; background-size: cover; }
 
 .section-weap img { transition: 0.3s ease-in-out; height: -webkit-max-content; height: -moz-max-content; height: max-content; width: auto; }
+
+.section-monsters { position: relative; }
+
+.section-monsters-crowbar { background: url("../images/sections/section-crowbar.png") center center no-repeat; background-size: cover; }
+
+.section-monsters-rustyblade { background: url("../images/sections/section-rustyblade.png") center center no-repeat; background-size: cover; }
+
+.section-monsters-canpistol { background: url("../images/sections/section-canpistol.png") top center no-repeat; background-size: cover; }
+
+.section-monsters-mist { background: url("../images/sections/section-mist.png") bottom center no-repeat; background-size: cover; }
+
+.section-monsters-mine { background: url("../images/sections/section-mine.png") bottom center no-repeat; background-size: cover; }
+
+.section-monsters img { transition: 0.3s ease-in-out; }
+
+.section-monsters img.monster { transition: 0.3s ease-in-out; width: auto; height: 200px; }
+
+.section-monsters h1 { font-size: 300%; }
+
+@media (max-width: 996px) { .section-monsters img.monster { transition: 0.3s ease-in-out; width: auto; height: 130px; display: block; }
+  .section-monsters h1 { font-size: 250%; } }
+
+.section-vehicles { position: relative; }
+
+.section-vehicles-folding { background: url("../images/sections/section-crowbar.png") center center no-repeat; background-size: cover; }
+
+.section-vehicles-shorty { background: url("../images/sections/section-rustyblade.png") center center no-repeat; background-size: cover; }
+
+.section-vehicles-blackbandit { background: url("../images/sections/section-canpistol.png") top center no-repeat; background-size: cover; }
+
+.section-vehicles-mist { background: url("../images/sections/section-mist.png") bottom center no-repeat; background-size: cover; }
+
+.section-vehicles-mine { background: url("../images/sections/section-mine.png") bottom center no-repeat; background-size: cover; }
+
+.section-vehicles img { transition: 0.3s ease-in-out; height: -webkit-max-content; height: -moz-max-content; height: max-content; width: auto; }
+
+.section-vehicles img.bike { transform: scale(1.5); }
 
 .navbar-custom { background-color: #ffffff !important; border-bottom: 1px solid rgba(195, 195, 195, 0.7); box-shadow: 0 0 30px rgba(195, 195, 195, 0.5); }
 
@@ -903,7 +942,15 @@ img.store-badge-ios { height: 48px; -ms-flex-item-align: center; -ms-grid-row-al
 
 img.store-badge:hover, img.store-badge-ios:hover { cursor: pointer; transform: scale(1.01); filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); }
 
-footer { background-color: #ffffff; padding: 4rem 0; }
+footer { background-color: #ffffff; padding: 4rem 0 0; }
+
+footer a { font-size: 300%; margin: 0 1rem; color: #353535; transition: 0.3s ease-in-out; }
+
+footer a:hover { color: #000000; transform: scale(1.15); }
+
+footer img { width: 200px; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+
+footer p { margin: 1rem auto; font-size: 0.85rem; }
 
 .navbar-toggler { padding: 1.8% 1%; margin: 0 0; }
 

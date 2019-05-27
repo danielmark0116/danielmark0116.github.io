@@ -1,0 +1,24 @@
+<footer>
+    <div class="container d-flex justify-content-center">
+        <a href="/">
+            <img src="images/logo.png" alt="">
+        </a>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <a href="https://www.facebook.com/CyberMarian/" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/cybermarianpl/?hl=pl" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC2g3uS_ac-9xZr-nZTzPwkA" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+    <div class="container">
+        <p class="text-center">
+            © CyberMarian, 2019.
+        </p>
+    </div>
+    
+</footer>
