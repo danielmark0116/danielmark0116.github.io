@@ -1,35 +1,35 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom animated fadeInDown faster">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="images/logo.png" alt="">
         </a>
        
     <button class="navbar-toggler" id="toggler-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <div id="nav-icon3">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+  <div class="custom-hamb" id="custom-btn">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 </button>
   
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto w-100 d-flex justify-content-end">
+            
             <li class="nav-item">
-                <a class="nav-link" href="/">main</a>
+                <a class="nav-link" href="char.html">bohaterowie</a>
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sub.html">characters</a>
+                <a class="nav-link" href="weapons.html">bronie</a>
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sub2.html">weapons</a>
+                <a class="nav-link" href="monsters.html">potwory</a>
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sub3.html">vehicles</a>
+                <a class="nav-link" href="sub3.html">pojazdy</a>
                 <div class="nav-link-border"></div>
             </li>
             

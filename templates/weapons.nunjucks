@@ -1,0 +1,149 @@
+{% extends "base/layout.nunjucks" %}
+
+{% block navbar %}
+{% include "partials/navbar.nunjucks" %}
+{% endblock navbar %}
+
+{% block content %}
+<section class="section section-weap section-weap-crowbar py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/crowbar.png" alt="">
+                
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 flex-first animated fadeInUp fast">
+                <h1 class="text-center">CROWBAR</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="/images/separator.png" class="separator-small" alt="">
+                </div>
+                <h3 class="text-center my-3">
+                    Niezbędne narzędzie każdego szabrownika. 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Atak: 8 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Pozyskanie złomu: 20
+                </h3>
+                 <h3 class="text-center my-3">
+                    Prędkość: Szybka
+                </h3>
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-char section-weap-rustyblade py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-sm-12 col-md-12 col-lg-6 animated fadeInUp fast">
+                <h1 class="text-center">RUSTY BLADE</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="/images/separator.png" class="separator-small" alt="">
+                </div>
+                <h3 class="text-center my-3">
+                    Prymitywne, tępe i przerdzewiałe - idealne do rozrywania Cyber-Bydlaków na kawałki. 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Atak: 25 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Pozyskanie złomu: 0 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Prędkość: Szybka
+                </h3>
+                
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/rusty-blade.png" alt="">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-char section-weap-canpistol py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/can-pistol.png" alt="">
+                
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 flex-first animated fadeInUp fast">
+                <h1 class="text-center">CAN PISTOL</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="/images/separator.png" class="separator-small" alt="">
+                </div>
+                <h3 class="text-center my-3">
+                    Pistolet domowej roboty, niezły na początek. 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Atak: 12 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Pojemność magazynka: 7 
+                </h3>
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-char section-weap-mist py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-sm-12 col-md-12 col-lg-6 flex-first animated fadeInUp fast">
+                <h1 class="text-center">MIST SUIT</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="/images/separator.png" class="separator-small" alt="">
+                </div>
+                <h3 class="text-center my-3">
+                    Osiągnięcie post-inwazyjnej technologii - da Ci solidną ochronę przed fioletową mgłą
+                </h3>
+                
+                
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/mist.png" alt="">
+                
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-char section-weap-mine py-5">
+    <div class="container pt-3">
+        <div class="row pt-2 flex-order">
+            <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/big-mine.png" alt="">
+                
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 flex-first animated fadeInUp fast">
+                <h1 class="text-center">BIG MINE</h1>
+                <div class="d-flex justify-content-center">
+                    <img src="/images/separator.png" class="separator-small" alt="">
+                </div>
+                <h3 class="text-center my-3">
+                    To będzie spektakularna eksplozja! Duża ilość błękitnego żelu pogrzebie Cyber-Bydlaków na dobre.
+                </h3>
+                 <h3 class="text-center my-3">
+                    Atak: 150 
+                </h3>
+                 <h3 class="text-center my-3">
+                    Ranga eksplozji: 4
+                </h3>
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+
+{% endblock content %}

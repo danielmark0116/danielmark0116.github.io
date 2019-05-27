@@ -1,8 +1,8 @@
 'use strics';
 
-const btn = document.querySelector('#nav-icon3');
+const btn = document.querySelector('#custom-btn');
 const togglerBtn = document.querySelector('#toggler-btn');
 
 togglerBtn.addEventListener('click', () => {
-  btn.classList.toggle('open');
+  btn.classList.toggle('active');
 });
