@@ -5,11 +5,12 @@
         </a>
        
     <button class="navbar-toggler" id="toggler-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <div class="custom-hamb" id="custom-btn">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
+  <div id="nav-icon3">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 </button>
   
 
