@@ -1,7 +1,8 @@
 'use strics';
 
-const btn = document.querySelector('#customBtn');
+const btn = document.querySelector('#custom-btn');
+const togglerBtn = document.querySelector('#toggler-btn');
 
-btn.addEventListener('click', () => {
-  btn.classList.toggle('is-active');
+togglerBtn.addEventListener('click', () => {
+  btn.classList.toggle('active');
 });
