@@ -829,53 +829,53 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
   .flex-first { -ms-flex-order: 1; order: 1; }
   .flex-second { -ms-flex-order: 2; order: 2; } }
 
-.section-main { background: url("../images/sections/main-welcome.png") center center; background-size: cover; position: relative; }
+.section-main { background: url("../images/sections/main-welcome.jpg") center center; background-size: cover; position: relative; }
 
 .section-main img { transition: 0.3s ease-in-out; }
 
-@media (max-width: 996px) { .section-main { background: url("../images/sections/main-welcome.png") top left no-repeat; background-size: cover; } }
+@media (max-width: 996px) { .section-main { background: url("../images/sections/main-welcome.jpg") top left no-repeat; background-size: cover; } }
 
-.section-desc { background: url("../images/sections/main-desc.png") top center; background-size: cover; position: relative; }
+.section-desc { background: url("../images/sections/main-desc.jpg") top center; background-size: cover; position: relative; }
 
 .section-desc img { transition: 0.3s ease-in-out; }
 
 .section-char { position: relative; }
 
-.section-char-marian { background: url("../images/sections/main-welcome.png") center center no-repeat; background-size: cover; }
+.section-char-marian { background: url("../images/sections/main-welcome.jpg") center center no-repeat; background-size: cover; }
 
-.section-char-madjunker { background: url("../images/sections/section-madjunker.png") bottom center no-repeat; background-size: cover; }
+.section-char-madjunker { background: url("../images/sections/section-madjunker.jpg") bottom center no-repeat; background-size: cover; }
 
-.section-char-cyberranger { background: url("../images/sections/section-cyberranger.png") bottom center no-repeat; background-size: cover; }
+.section-char-cyberranger { background: url("../images/sections/section-cyberranger.jpg") bottom center no-repeat; background-size: cover; }
 
-.section-char-stalker { background: url("../images/sections/section-stalker.png") bottom center no-repeat; background-size: cover; }
+.section-char-stalker { background: url("../images/sections/section-stalker.jpg") bottom center no-repeat; background-size: cover; }
 
 .section-char img { transition: 0.3s ease-in-out; height: -webkit-max-content; height: -moz-max-content; height: max-content; width: auto; }
 
 .section-weap { position: relative; }
 
-.section-weap-crowbar { background: url("../images/sections/section-crowbar.png") center center no-repeat; background-size: cover; }
+.section-weap-crowbar { background: url("../images/sections/section-crowbar.jpg") center center no-repeat; background-size: cover; }
 
-.section-weap-rustyblade { background: url("../images/sections/section-rustyblade.png") center center no-repeat; background-size: cover; }
+.section-weap-rustyblade { background: url("../images/sections/section-rustyblade.jpg") center center no-repeat; background-size: cover; }
 
-.section-weap-canpistol { background: url("../images/sections/section-canpistol.png") top center no-repeat; background-size: cover; }
+.section-weap-canpistol { background: url("../images/sections/section-canpistol.jpg") top center no-repeat; background-size: cover; }
 
-.section-weap-mist { background: url("../images/sections/section-mist.png") bottom center no-repeat; background-size: cover; }
+.section-weap-mist { background: url("../images/sections/section-mist.jpg") bottom center no-repeat; background-size: cover; }
 
-.section-weap-mine { background: url("../images/sections/section-mine.png") bottom center no-repeat; background-size: cover; }
+.section-weap-mine { background: url("../images/sections/section-mine.jpg") bottom center no-repeat; background-size: cover; }
 
 .section-weap img { transition: 0.3s ease-in-out; height: -webkit-max-content; height: -moz-max-content; height: max-content; width: auto; }
 
 .section-monsters { position: relative; }
 
-.section-monsters-crowbar { background: url("../images/sections/section-crowbar.png") center center no-repeat; background-size: cover; }
+.section-monsters-crowbar { background: url("../images/sections/section-crowbar.jpg") center center no-repeat; background-size: cover; }
 
-.section-monsters-rustyblade { background: url("../images/sections/section-rustyblade.png") center center no-repeat; background-size: cover; }
+.section-monsters-rustyblade { background: url("../images/sections/section-rustyblade.jpg") center center no-repeat; background-size: cover; }
 
-.section-monsters-canpistol { background: url("../images/sections/section-canpistol.png") top center no-repeat; background-size: cover; }
+.section-monsters-canpistol { background: url("../images/sections/section-canpistol.jpg") top center no-repeat; background-size: cover; }
 
-.section-monsters-mist { background: url("../images/sections/section-mist.png") bottom center no-repeat; background-size: cover; }
+.section-monsters-mist { background: url("../images/sections/section-mist.jpg") bottom center no-repeat; background-size: cover; }
 
-.section-monsters-mine { background: url("../images/sections/section-mine.png") bottom center no-repeat; background-size: cover; }
+.section-monsters-mine { background: url("../images/sections/section-mine.jpg") bottom center no-repeat; background-size: cover; }
 
 .section-monsters img { transition: 0.3s ease-in-out; }
 
@@ -888,15 +888,15 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
 
 .section-vehicles { position: relative; }
 
-.section-vehicles-folding { background: url("../images/sections/section-crowbar.png") center center no-repeat; background-size: cover; }
+.section-vehicles-folding { background: url("../images/sections/section-crowbar.jpg") center center no-repeat; background-size: cover; }
 
-.section-vehicles-shorty { background: url("../images/sections/section-rustyblade.png") center center no-repeat; background-size: cover; }
+.section-vehicles-shorty { background: url("../images/sections/section-rustyblade.jpg") center center no-repeat; background-size: cover; }
 
-.section-vehicles-blackbandit { background: url("../images/sections/section-canpistol.png") top center no-repeat; background-size: cover; }
+.section-vehicles-blackbandit { background: url("../images/sections/section-canpistol.jpg") top center no-repeat; background-size: cover; }
 
-.section-vehicles-mist { background: url("../images/sections/section-mist.png") bottom center no-repeat; background-size: cover; }
+.section-vehicles-mist { background: url("../images/sections/section-mist.jpg") bottom center no-repeat; background-size: cover; }
 
-.section-vehicles-mine { background: url("../images/sections/section-mine.png") bottom center no-repeat; background-size: cover; }
+.section-vehicles-mine { background: url("../images/sections/section-mine.jpg") bottom center no-repeat; background-size: cover; }
 
 .section-vehicles img { transition: 0.3s ease-in-out; height: -webkit-max-content; height: -moz-max-content; height: max-content; width: auto; }
 

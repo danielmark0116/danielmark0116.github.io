@@ -1,5 +1,5 @@
 .section-main {
-  background: url('../images/sections/main-welcome.png') center center;
+  background: url('../images/sections/main-welcome.jpg') center center;
   background-size: cover;
   //   height: 500px;
   position: relative;
@@ -10,7 +10,7 @@
 
 @media (max-width: 996px) {
   .section-main {
-    background: url('../images/sections/main-welcome.png') top left no-repeat;
+    background: url('../images/sections/main-welcome.jpg') top left no-repeat;
     background-size: cover;
   }
 }
