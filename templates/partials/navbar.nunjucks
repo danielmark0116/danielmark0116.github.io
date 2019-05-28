@@ -25,19 +25,19 @@
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="monsters.html">potwory</a>
+                <a class="nav-link" href="monsters">potwory</a>
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="vehicles.html">pojazdy</a>
+                <a class="nav-link" href="vehicles">pojazdy</a>
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="news.html">junknews</a>
+                <a class="nav-link" href="news">junknews</a>
                 <div class="nav-link-border"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">kontakt</a>
+                <a class="nav-link" href="contact">kontakt</a>
                 <div class="nav-link-border"></div>
             </li>
             
