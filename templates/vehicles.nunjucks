@@ -81,6 +81,21 @@
     </div>
     <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
 </section>
+<section class="section section-vehicles section-vehicles-blackbandit py-5">
+    <div class="container pt-3">
+        <h1 class="text-center">LEVEL UP!</h1>
+        <div class="row pt-2">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/vehicles/vehicle-dis.png" alt="">  
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+
 
 
 {% endblock content %}

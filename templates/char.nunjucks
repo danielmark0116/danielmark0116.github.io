@@ -40,7 +40,7 @@
                     <img src="/images/separator.png" class="separator-small" alt="">
                 </div>
                 <h3 class="text-center my-3">
-                    Jeden z szaleńców zamieszkujących złomowiska. Na próżno szukać bardziej sprawnych szabrowników niż członkowie tego dzikiego gangu.
+                    Jeden z szaleńców zamieszkujących złomowiska. Na próżno szukać bardziej sprawnego szabrownika niż członek tego dzikiego gangu.
                 </h3>
                  <h3 class="text-center my-3">
                     Skill: specjalna broń dostępna w bazie
@@ -69,7 +69,7 @@
                     <img src="/images/separator.png" class="separator-small" alt="">
                 </div>
                 <h3 class="text-center my-3">
-                    Łowca Cyber-Bydlaków. Członek gildii obrońców nowego świata. Świetny, wyszkolony w boju wędrowiec, posługujący się unikatową strzelbą łowiecką gildii.
+                    Łowca Cyber-Bydlaków. Członek gildii obrońców nowego świata. Świetny, wyszkolony w boju wędrowiec, posługujący się unikatową, łowiecką strzelbą gildii.
 
                 </h3>
                  <h3 class="text-center my-3">
@@ -103,6 +103,24 @@
             <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
                 <img src="../images/chars/stalker.png" alt="">
                 
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-char section-char-stalker py-5">
+    <div class="container pt-3">
+        <h1 class="text-center">LEVEL UP!</h1>
+        <div class="row pt-2">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/chars/char-1-dis.png" alt="">  
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/chars/char-2-dis.png" alt="">  
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/chars/char-3-dis.png" alt="">
             </div>
         </div>
         

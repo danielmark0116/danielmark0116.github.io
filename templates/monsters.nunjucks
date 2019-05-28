@@ -11,7 +11,6 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
                 <h1 class="text-center">RAPTOR THE SAGE</h1>
                 <div class="d-flex justify-content-center">
-                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
                 </div>
                 
                 
@@ -31,7 +30,6 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 animated fadeInUp fast">
                 <h1 class="text-center">JANUSH MONKEY</h1>
                 <div class="d-flex justify-content-center">
-                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
                 </div>
                 
                 
@@ -51,7 +49,6 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
                 <h1 class="text-center">REALTHREAT</h1>
                 <div class="d-flex justify-content-center">
-                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
                 </div>
                 
             </div>
@@ -70,7 +67,6 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
                 <h1 class="text-center">COOLCAT</h1>
                 <div class="d-flex justify-content-center">
-                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
                 </div>
                 
                 
@@ -90,7 +86,6 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
                 <h1 class="text-center">ALPHA</h1>
                 <div class="d-flex justify-content-center">
-                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
                 </div>
                 
             </div>
@@ -109,7 +104,6 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 flex-first animated fadeInUp fast">
                 <h1 class="text-center">TERRORBIRD</h1>
                 <div class="d-flex justify-content-center">
-                    {# <img src="/images/separator.png" class="separator-small" alt=""> #}
                 </div>
                 
             </div>
@@ -117,6 +111,22 @@
                 <img src="../images/monsters/terrorbird.png" alt="" class="monster">
                 
             </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
+<section class="section section-monsters section-monsters-mine py-5">
+    <div class="container pt-3">
+        <h1 class="text-center">LEVEL UP!</h1>
+        <div class="row pt-2">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/monster-1-dis.png" alt="">  
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/monsters/monster-2-dis.png" alt="">  
+            </div>
+            
         </div>
         
     </div>

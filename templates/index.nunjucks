@@ -11,7 +11,7 @@
     <div class="container pt-5">
         <div class="row pt-5">
             <div class="col col-sm-12 col-md-12 col-lg-6 animated fadeInUp fast">
-                <h1 class="text-center">Cyber Junk</h1>
+                <h1 class="text-center">CyberJunk</h1>
                 <div class="d-flex justify-content-center">
                     <img src="/images/separator.png" class="separator-small" alt="">
                 </div>
@@ -34,7 +34,7 @@
     <div class="container py-4">
         <div class="row pt-4">
             <div class="col col-sm-12 col-md-12 col-lg-12 animated fadeInUp fast">
-                <h1 class="text-center">Opis gry</h1>
+                <h1 class="text-center">Gra</h1>
                 <div class="d-flex justify-content-center">
                     <img src="/images/separator.png" class="separator-small" alt="">
                 </div>

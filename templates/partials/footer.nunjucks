@@ -1,8 +1,41 @@
 <footer>
-    <div class="container d-flex justify-content-center">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-6">
+                <div class="container d-flex justify-content-center">
+                    <a href="/">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="container d-flex justify-content-center">
+                    <img src="/images/icons/google-play-badge.png" alt="" class="store-badge">
+                    <img src="/images/icons/ios-badge-en.svg" alt="" class="store-badge-ios">
+                </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-6 pt-4">
+                <h2 class="text-center">SOCIAL MEDIA</h2>
+                <div class="container d-flex justify-content-center">
+                    <a href="https://www.facebook.com/CyberMarian/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/cybermarianpl/?hl=pl" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC2g3uS_ac-9xZr-nZTzPwkA" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {# <div class="container d-flex justify-content-center">
         <a href="/">
             <img src="images/logo.png" alt="">
         </a>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <img src="/images/icons/google-play-badge.png" alt="" class="store-badge">
+        <img src="/images/icons/ios-badge-en.svg" alt="" class="store-badge-ios">
     </div>
     <div class="container d-flex justify-content-center">
         <a href="https://www.facebook.com/CyberMarian/" target="_blank">
@@ -14,10 +47,10 @@
         <a href="https://www.youtube.com/channel/UC2g3uS_ac-9xZr-nZTzPwkA" target="_blank">
             <i class="fab fa-youtube"></i>
         </a>
-    </div>
+    </div> #}
     <div class="container">
         <p class="text-center">
-            © CyberMarian, 2019.
+            © CyberMarian 2019
         </p>
     </div>
     

@@ -145,5 +145,23 @@
     </div>
     <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
 </section>
+<section class="section section-char section-weap-mine py-5">
+    <div class="container pt-3">
+        <h1 class="text-center">LEVEL UP!</h1>
+        <div class="row pt-2">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/weap-1-dis.png" alt="">  
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/weap-2-dis.png" alt="">  
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
+                <img src="../images/weapons/weap-3-dis.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+</section>
 
 {% endblock content %}

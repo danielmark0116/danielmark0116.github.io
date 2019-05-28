@@ -5,6 +5,12 @@ section {
   & img {
     z-index: 2;
   }
+  &.white-bg {
+    background-color: $white;
+    &::before {
+      display: none;
+    }
+  }
   &::before {
     position: absolute;
     top: 0;
@@ -12,7 +18,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba($black, 0.4);
+    background: rgba($black, 0.05);
 
     z-index: 1;
     content: '';
@@ -23,6 +29,31 @@ section {
   background-color: $white;
   &::before {
     background: $white;
+  }
+}
+
+.disabled {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  // justify-self: center;
+  font-family: 'Decade';
+  content: 's';
+  color: white;
+  text-align: center;
+  font-size: 7rem;
+  justify-content: center;
+  align-items: center;
+  &.right {
+    transform: translateX(10%);
+  }
+  &.left {
+    transform: translateX(-10%);
+  }
+  &.top {
+    transform: translateY(-20%);
   }
 }
 

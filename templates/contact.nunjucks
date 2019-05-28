@@ -1,0 +1,23 @@
+
+{% extends "base/layout.nunjucks" %}
+
+{% block navbar %}
+{% include "partials/navbar.nunjucks" %}
+{% endblock navbar %}
+
+{% block content %}
+
+
+<section class="white-bg pb-5">
+<div class="container my-4 py-5">
+    <h2 class="text-center">Bezpośredni kontakt z Cyber Bazą:</h2>
+    <h4 class="text-center pt-5">marian@cyberjunk.pl</h4>
+</div>
+
+<img src="/images/separator.png" class="separator" alt="">
+
+</section>
+
+
+
+{% endblock content %}
