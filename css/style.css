@@ -801,9 +801,17 @@
 
 @media (print), (prefers-reduced-motion) { .animated { animation: unset !important; transition: none !important; } }
 
-@font-face { font-family: 'Decade'; src: url("../vendor/decade/Decade.eot"); src: url("../vendor/decade/Decade.eot?#iefix") format("embedded-opentype"), url("../vendor/decade/Decade.woff2") format("woff2"), url("../vendor/decade/Decade.woff") format("woff"), url("../vendor/decade/Decade.svg#Decade") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Decade'; src: url("../vendor/decade/Decade.eot"); src: url("../vendor/decade/Decade.eot?#iefix") format("embedded-opentype"), url("../vendor/decade/Decade.woff") format("woff"), url("../vendor/decade/Decade.svg#Decade") format("svg"); font-weight: normal; font-style: normal; }
 
 .header-100vh { height: 100vh; }
+
+.img-resize { transform: scale(1); }
+
+iframe { z-index: 20; }
+
+@media (max-width: 540px) { .img-resize { transform: scale(0.6); } }
+
+.text-white { color: white; }
 
 .title-custom, h1, h2, h3 { font-family: "Decade"; color: #ffffff; -webkit-text-stroke: 1px black; text-shadow: 3px 3px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; }
 
@@ -848,6 +856,8 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
 .section-main img { transition: 0.3s ease-in-out; }
 
 @media (max-width: 996px) { .section-main { background: url("../images/sections/main-welcome.jpg") top left no-repeat; background-size: cover; } }
+
+.header-brand-pic { height: 80px; }
 
 .section-desc { background: url("../images/sections/main-desc.jpg") top center; background-size: cover; position: relative; }
 
@@ -914,7 +924,7 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
 
 .section-vehicles img { transition: 0.3s ease-in-out; height: -webkit-max-content; height: -moz-max-content; height: max-content; width: auto; }
 
-.section-vehicles img.bike { transform: scale(1.5); }
+.section-vehicles img.bike { height: 170px; }
 
 .navbar-custom { background-color: #ffffff !important; border-bottom: 1px solid rgba(195, 195, 195, 0.7); box-shadow: 0 0 30px rgba(195, 195, 195, 0.5); }
 
@@ -953,11 +963,11 @@ section::before { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; h
 
 .separator-small { transform: scale(0.5); z-index: 10; display: block; margin: 0 auto 1rem; }
 
-img.store-badge, img.store-badge-ios { width: auto; height: 70px; transition: 0.3s ease-in-out; filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); }
+.store-badge { height: 70px; width: auto; transition: 0.3s ease-in-out; filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); }
 
-img.store-badge-ios { height: 48px; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+.store-badge:hover { cursor: pointer; transform: scale(1.01); filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); }
 
-img.store-badge:hover, img.store-badge-ios:hover { cursor: pointer; transform: scale(1.01); filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); }
+@media (max-width: 600px) { footer .store-badge { display: block; } }
 
 footer { background-color: #ffffff; padding: 4rem 0 0; }
 
@@ -968,6 +978,10 @@ footer a:hover { color: #000000; transform: scale(1.15); }
 footer img { width: 200px; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
 
 footer p { margin: 1rem auto; font-size: 0.85rem; }
+
+.footer-social-media { display: -ms-flexbox; display: flex; -ms-flex-line-pack: stretch; align-content: stretch; -ms-flex-line-pack: center; align-content: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
+
+@media (max-width: 767px) { .footer-social-media { margin-top: 1.5rem; } }
 
 .navbar-toggler { padding: 1.8% 1%; margin: 0 0; }
 

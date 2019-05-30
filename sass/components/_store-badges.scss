@@ -1,18 +1,22 @@
-img.store-badge {
-  width: auto;
+.store-badge {
+  // width: auto;
+  // max-width: 200px;
   height: 70px;
+  width: auto;
   @include fade;
   -webkit-filter: drop-shadow(0 0 5px rgba($black, 0.3));
   filter: drop-shadow(0 0 5px rgba($black, 0.3));
-  &-ios {
-    @extend .store-badge;
-    height: 48px;
-    align-self: center;
-  }
+
   &:hover {
     cursor: pointer;
     transform: scale(1.01);
     -webkit-filter: drop-shadow(0 0 5px rgba($black, 0.5));
     filter: drop-shadow(0 0 5px rgba($black, 0.5));
+  }
+}
+
+@media (max-width: 600px) {
+  footer .store-badge {
+    display: block;
   }
 }

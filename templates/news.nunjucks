@@ -8,17 +8,17 @@
 {% block content %}
 
 
-<section class="white-bg pb-5">
-<div class="container my-4 py-5">
-    <h2 class="text-center">JunkNews</h2>
-    <br>
-    <p class="text-center">
-        LINK DO FILMU
-    </p>
-</div>
 
-<img src="/images/separator.png" class="separator" alt="">
 
+<section class="section section-main py-5">
+    <div class="container mt-2 pt-3 pb-5">
+        <h2 class="text-center">JunkNews</h2>
+        <br>
+        <div class="container d-flex justify-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6env9NXY14I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <img src="images/separator.png" class="separator" alt="">
 </section>
 
 

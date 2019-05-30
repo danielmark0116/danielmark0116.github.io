@@ -20,3 +20,17 @@ footer {
     font-size: 0.85rem;
   }
 }
+
+.footer-social-media {
+  display: flex;
+  align-content: stretch;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .footer-social-media {
+    margin-top: 1.5rem;
+  }
+}

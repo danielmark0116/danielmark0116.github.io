@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "copyfiles *.html css/* images/* images/chars/* images/icons/* images/monsters/* images/sections/* images/vehicles/* images/weapons/* js/* vendor/* .htaccess *.ico dist",
+    "dist": "copyfiles *.html css/* images/* images/chars/* images/icons/* images/monsters/* images/sections/* images/vehicles/* images/weapons/* js/* vendor/* vendor/decade/* .htaccess *.ico dist",
     "test": "npm-run-all test:*",
     "test:test": "echo test2",
     "testhtml": "nu-html-checker *.html",

@@ -9,16 +9,17 @@
     <div class="container pt-3">
         <div class="row pt-2 flex-order">
             <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
-                <img src="../images/vehicles/bike.png" alt="" class="bike">
+                <img src="images/vehicles/bike-lg.png" alt="" class="bike img-resize">
                 
             </div>
             <div class="col col-sm-12 col-md-12 col-lg-6 flex-first animated fadeInUp fast">
                 <h1 class="text-center">FOLDING BIKE</h1>
                 <div class="d-flex justify-content-center">
-                    <img src="/images/separator.png" class="separator-small" alt="">
+                    <img src="images/separator.png" class="separator-small" alt="">
                 </div>
                 <h3 class="text-center my-3">
-                    Prawdziwy "Okręt Pustkowi". W pełni mechaniczny pojazd silnikowy - bez wysiłku pokonasz duże dystanse.
+                    Prawdziwy "Okręt Pustkowi". <br>
+                    W pełni mechaniczny pojazd silnikowy - bez wysiłku pokonasz duże dystanse.
                 </h3>
                  <h3 class="text-center my-3">
                     Prędkość: 5
@@ -30,7 +31,7 @@
         </div>
         
     </div>
-    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+    <img src="images/separator.png" class="separator animated fadeInUp fast" alt="">
 </section>
 <section class="section section-vehicles section-vehicles-shorty py-5">
     <div class="container pt-3">
@@ -38,10 +39,11 @@
             <div class="col col-sm-12 col-md-12 col-lg-6 animated fadeInUp fast">
                 <h1 class="text-center">SHORTY</h1>
                 <div class="d-flex justify-content-center">
-                    <img src="/images/separator.png" class="separator-small" alt="">
+                    <img src="images/separator.png" class="separator-small" alt="">
                 </div>
                 <h3 class="text-center my-3">
-                    Must have każdego szabrownika. Bez sprawdzonego, niezawodnego pojazdu nie zajedziesz daleko
+                    Must have każdego szabrownika. <br>
+                    Bez sprawdzonego, niezawodnego pojazdu nie zajedziesz daleko
 
                 </h3>
                  <h3 class="text-center my-3">
@@ -50,25 +52,25 @@
                 
             </div>
             <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
-                <img src="../images/vehicles/shorty.png" alt="">
+                <img src="images/vehicles/shorty.png" alt="">
                 
             </div>
         </div>
         
     </div>
-    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+    <img src="images/separator.png" class="separator animated fadeInUp fast" alt="">
 </section>
 <section class="section section-vehicles section-vehicles-blackbandit py-5">
     <div class="container pt-3">
         <div class="row pt-2 flex-order">
             <div class="col col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
-                <img src="../images/vehicles/bandit.png" alt="">
+                <img src="images/vehicles/bandit.png" alt="">
                 
             </div>
             <div class="col col-sm-12 col-md-12 col-lg-6 flex-first animated fadeInUp fast">
                 <h1 class="text-center">BLACK BANDIT</h1>
                 <div class="d-flex justify-content-center">
-                    <img src="/images/separator.png" class="separator-small" alt="">
+                    <img src="images/separator.png" class="separator-small" alt="">
                 </div>
                 <h3 class="text-center my-3">
                     XXX... Skrywa niejedną tajemnicę
@@ -79,21 +81,21 @@
         </div>
         
     </div>
-    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+    <img src="images/separator.png" class="separator animated fadeInUp fast" alt="">
 </section>
 <section class="section section-vehicles section-vehicles-blackbandit py-5">
     <div class="container pt-3">
         <h1 class="text-center">LEVEL UP!</h1>
         <div class="row pt-2">
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center flex-second py-5 animated fadeInUp fast">
-                <img src="../images/vehicles/vehicle-dis.png" alt="">  
+                <img src="images/vehicles/vehicle-dis.png" alt="" class="img-resize">  
             </div>
             
             
         </div>
         
     </div>
-    <img src="/images/separator.png" class="separator animated fadeInUp fast" alt="">
+    <img src="images/separator.png" class="separator animated fadeInUp fast" alt="">
 </section>
 
 
