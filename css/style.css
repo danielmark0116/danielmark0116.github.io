@@ -983,6 +983,8 @@ footer p { margin: 1rem auto; font-size: 0.85rem; }
 
 @media (max-width: 767px) { .footer-social-media { margin-top: 1.5rem; } }
 
+footer a.footer-badge-link:hover { transform: scale(1); }
+
 .navbar-toggler { padding: 1.8% 1%; margin: 0 0; }
 
 .navbar-toggler:focus { outline: none !important; }

@@ -14,8 +14,14 @@
     <div class="container mt-2 pt-3 pb-5">
         <h2 class="text-center">JunkNews</h2>
         <br>
-        <div class="container d-flex justify-content-center">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6env9NXY14I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container d-flex justify-content-center py-2 my-2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SVz-itUn6ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="container d-flex justify-content-center py-2 my-2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gzIM-dCjFVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="container d-flex justify-content-center py-2 my-2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NO3j6jh0X6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <img src="images/separator.png" class="separator" alt="">

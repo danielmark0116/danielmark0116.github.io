@@ -34,3 +34,9 @@ footer {
     margin-top: 1.5rem;
   }
 }
+
+footer a.footer-badge-link {
+  &:hover {
+    transform: scale(1);
+  }
+}
