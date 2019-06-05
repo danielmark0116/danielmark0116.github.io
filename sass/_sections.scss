@@ -29,6 +29,7 @@ section {
   background-color: $white;
   &::before {
     background: $white;
+    z-index: -2;
   }
 }
 

@@ -1,0 +1,100 @@
+
+{% extends "base/layout.nunjucks" %}
+
+{% block navbar %}
+{% include "partials/navbar.nunjucks" %}
+{% endblock navbar %}
+
+{% block content %}
+
+
+{# <section class="section section-main py-5"> #}
+<section class="section section-white py-5" style="background-color: white;">
+    <div class="container m3-4 pt-3 pb-5">
+        <h1 class="text-center mb-5 pb-4">
+           Polityka Cookies
+        </h1>
+        <p>
+            Niniejsza Polityka dotyczy plików cookie i odnosi się do serwisu internetowego www.cyberjunk.pl, którego właścicielem jest firma dReamfield Maksymilian Makowski z siedzibą w Piasecznie (05-500) na ul. Karolinki 42. Korzystając z serwisu CyberJunk.pl wyrażasz zgodę na zapisywanie i odczytywanie wymienionych poniżej plików cookie. 
+        </p>
+        <p>
+            Czym są pliki cookie? Pliki cookie to małe pliki tekstowe zapisywane przez serwis internetowy na urządzeniu końcowym użytkownika (komputer, urządzenie przenośne) za pośrednictwem przeglądarki. Pliki te są odczytywane lub modyfikowane podczas kolejnych wizyt i mogą zawierać podstawowe informacje o użytkowniku, jego indywidualnych ustawieniach wyglądu czy też działania serwisu lub jakiekolwiek inne dane przydatne twórcom do stworzenia lepszego serwisu.
+
+        </p>
+        <br>
+        <p class"lead">
+            <em>
+                Pliki cookie używane przez cyberjunk.pl:
+            </em>
+        </p>
+        <div class="table-responsive mb-3">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">Stałe</th>
+                        <td class="text-center">
+                            Pliki wykorzystywane do modyfikacji wyglądu lub działania serwisu na podstawie dokonanych wcześniej wyborów lub czynności. Pozostają na urządzeniu użytkownika aż do momentu wygaśnięcia lub usunięcia przez serwis lub użytkownika. Brak tych plików nie wpływa w znaczący sposób na funkcjonowanie serwisu.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class"lead">
+            <em>
+                Pliki cookie podmiotów trzecich:
+            </em>
+        </p>
+        <div class="table-responsive">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">Analityczne</th>
+                        <td class="text-center">
+                            Pliki zapisywane przez: <br>
+                            <strong>Google Analytics</strong>, bezpłatne narzędzie internetowe Google, które umożliwiają anonimowe zbieranie informacji w celu lepszego zrozumienia sposobu korzystania z serwisu, preferencji użytkownika, trendów.
+                            <a href="https://tools.google.com/dlpage/gaoptout?hl=pl" target="_blank">Rezygnacja (opt-out).</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Reklamowe serwisów Facebook.com i Google.com</th>
+                        <td class="text-center">
+                            Pliki zapisywane przez firmy realizujące kampanie reklamowe na zlecenie reklamodawców, pozwalające na ograniczanie liczby wyświetleń reklamy w ramach kampanii, dostarczanie reklam odpowiadających zainteresowaniom użytkownika oraz mierzące efektywność kampanii reklamowych.
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br><br>
+        <p> 
+            <strong>
+            Większość plików cookie podmiotów trzecich jest zapisywana w domenach poszczególnych podmiotów. Więcej informacji na ich temat możesz znaleźć na stronach internetowych tych podmiotów.
+            </strong>
+        </p>
+        <br><br>
+        <p class="lead">
+            Zarządzanie plikami cookie 
+        </p>
+        <p>
+        <strong>
+            Każda przeglądarka w większym lub mniejszym stopniu (np. na urządzeniach przenośnych) oferuje możliwość przeglądania, usuwania oraz ograniczania i kontrolowania przyjmowania plików cookie. Zapoznaj się z treścią pomocy lub ustawieniami prywatności/bezpieczeństwa w przeglądarce z której korzystasz. Usunięcie aktualnych plików cookie może spowodować potrzebę ponownego wykonania pewnych czynności w serwisie, a zablokowanie prz
+            yjmowania niektórych plików może uniemożliwić korzystanie z pewnych funkcji serwisu.
+        </strong>
+        </p>
+        <br><br>
+        <p class="lead">
+            Kontakt
+        </p>
+        <p>
+        <strong>
+            W przypadku pytań dotyczących plików cookie prosimy o kontakt pod adresem marian@cybermarian.pl.
+        </strong>
+        </p>
+    </div>
+    <img src="images/separator.png" class="separator" alt="">
+</section>
+
+
+
+
+{% endblock content %}
